@@ -63,6 +63,7 @@ HTML / CSS / JavaScript – For designing the frontend interface
 
 
 Model Architecture
+
 This project uses a Hybrid Recommendation Model combining the strengths of:
 
 🔹 Content-Based Filtering
@@ -73,6 +74,7 @@ Matches these with user-stated preferences to recommend relevant restaurants.
 
 Uses historical user rating data to find similar users and suggest restaurants based on collective behavior.
 Implemented using the Surprise library's Singular Value Decomposition (SVD) algorithm.
+
 🔹 Hybrid Approach
 
 Merges both filtering strategies to solve the cold-start and sparsity problems.
@@ -80,8 +82,10 @@ Balances personalization with discovery of new or less popular options.
 
 
 Dataset
+
 The dataset is sourced from Kaggle and titled:
 Zomato Bangalore Restaurants Dataset by Himanshu Poddar
 
 Conclusion
+
 This project successfully demonstrates how machine learning and recommendation systems can simplify dining decisions by tailoring restaurant suggestions to user preferences and behavior. It offers a powerful and adaptive solution for users in both familiar and unfamiliar areas. The hybrid model ensures balance between personalized results and discovery of new options. This project lays the foundation for more advanced, real-time, and location-aware food recommendation engines.
