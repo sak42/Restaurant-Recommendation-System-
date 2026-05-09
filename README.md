@@ -1,3 +1,2 @@
 # Restaurant-Recommendation-System-
-Restaurant Recommendation System 
-Screenshots
+Restaurant Recommendation System
