@@ -50,6 +50,8 @@ Restaurant-Recommendation-System/
     └── Final_Development_Phase.ipynb  # Model training and evaluation notebook
 
 Technologies Used
+
+
 Python 3.10 – Core programming language
 Flask – Lightweight web framework to build the backend API
 Scikit-learn – For building and evaluating machine learning models
