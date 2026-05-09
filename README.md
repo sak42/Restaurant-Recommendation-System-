@@ -48,3 +48,13 @@ Restaurant-Recommendation-System/
 │   └── restaurant.csv             # Restaurant dataset
 ├── Model/
     └── Final_Development_Phase.ipynb  # Model training and evaluation notebook
+
+Technologies Used
+Python 3.10 – Core programming language
+Flask – Lightweight web framework to build the backend API
+Scikit-learn – For building and evaluating machine learning models
+Surprise – Specialized library for collaborative filtering (e.g., SVD)
+Pandas / NumPy – For data manipulation and preprocessing
+NLTK – For natural language processing and cleaning review text
+Matplotlib / Seaborn / Plotly – For data visualization and EDA
+HTML / CSS / JavaScript – For designing the frontend interface
