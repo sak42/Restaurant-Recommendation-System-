@@ -36,7 +36,6 @@ cd Flask
 python app.py
 
 # Visit http://localhost:5000 to access the app
-Project Structure:
 Restaurant-Recommendation-System/
 ├── Documentation...
 ├── Flask/
@@ -49,72 +48,3 @@ Restaurant-Recommendation-System/
 │   └── restaurant.csv             # Restaurant dataset
 ├── Model/
     └── Final_Development_Phase.ipynb  # Model training and evaluation notebook
-Technologies Used
-Python 3.10 – Core programming language
-Flask – Lightweight web framework to build the backend API
-Scikit-learn – For building and evaluating machine learning models
-Surprise – Specialized library for collaborative filtering (e.g., SVD)
-Pandas / NumPy – For data manipulation and preprocessing
-NLTK – For natural language processing and cleaning review text
-Matplotlib / Seaborn / Plotly – For data visualization and EDA
-HTML / CSS / JavaScript – For designing the frontend interface
-Model Architecture
-This project uses a Hybrid Recommendation Model combining the strengths of:
-
-🔹 Content-Based Filtering
-Analyzes restaurant attributes like cuisine type, average cost, rating, and delivery option.
-Matches these with user-stated preferences to recommend relevant restaurants.
-🔹 Collaborative Filtering (SVD)
-Uses historical user rating data to find similar users and suggest restaurants based on collective behavior.
-Implemented using the Surprise library's Singular Value Decomposition (SVD) algorithm.
-🔹 Hybrid Approach
-Merges both filtering strategies to solve the cold-start and sparsity problems.
-Balances personalization with discovery of new or less popular options.
-Dataset
-The dataset is sourced from Kaggle and titled:
-
-Zomato Bangalore Restaurants Dataset by Himanshu Poddar
-
-Conclusion
-This project successfully demonstrates how machine learning and recommendation systems can simplify dining decisions by tailoring restaurant suggestions to user preferences and behavior. It offers a powerful and adaptive solution for users in both familiar and unfamiliar areas. The hybrid model ensures balance between personalized results and discovery of new options. This project lays the foundation for more advanced, real-time, and location-aware food recommendation engines.
-
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 0 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Contributors
-1
-@raju2703
-raju2703 Raju Jadhav
-Languages
-Python
-96.7%
- 
-Cython
-1.8%
- 
-Jupyter Notebook
-0.5%
- 
-C
-0.5%
- 
-C++
-0.5%
- 
-JavaScript
-0.0%
-Footer
-©
