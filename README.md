@@ -35,7 +35,7 @@ cd Flask
 # Run the Flask web application
 python app.py
 
-# Visit http://localhost:5000 to access the app
+structure
 Restaurant-Recommendation-System/
 ├── Documentation...
 ├── Flask/
